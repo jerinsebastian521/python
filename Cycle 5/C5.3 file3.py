@@ -1,0 +1,5 @@
+f = open("D:\\csv.csv", 'r')
+c = f.readlines()
+list = list(c)
+print(list)
+f.close()
